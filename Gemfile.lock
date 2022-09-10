@@ -1,0 +1,32 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    debase (2.3.5)
+      debase-ruby_core_source (~> 0.10.14)
+    debase-ruby_core_source (0.10.16)
+    diff-lcs (1.5.0)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.0)
+    ruby-debug-ide (2.3.5)
+      debase (~> 2.3.5)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  rspec
+  ruby-debug-ide
+
+BUNDLED WITH
+   2.3.3
